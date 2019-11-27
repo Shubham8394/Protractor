@@ -1,0 +1,20 @@
+{
+    "url": "https://www.fb.com",
+
+    "credentials": {
+        "username": "Shubham",
+        "password": "Sharma"
+    },
+
+    "userDetails": [
+        {
+            "firstName": "Ravi",
+            "lastName": "Kumar"
+        },
+
+        {
+            "firstName": "Amit",
+            "lastName": "Singh"
+        }
+    ]
+}

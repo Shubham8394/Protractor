@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "To test the code",
+  "main": "index.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "jasmine": "^3.5.0",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "path": "^0.12.7",
+    "protractor": "^5.4.2",
+    "protractor-html-reporter": "^1.3.2"
+  },
+  "scripts": {
+    "test": "protractor conf2.js",
+    "webdriver-update": "webdriver-manager update --ignore_ssl",
+    "webdriver-start": "webdriver-manager start",
+    "npm-install": "npm install"
+  },
+  "author": "Shubham",
+  "license": "ISC",
+  "devDependencies": {
+    "protractor-beautiful-reporter": "^1.3.6"
+  }
+}
